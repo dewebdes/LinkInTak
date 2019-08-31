@@ -1,0 +1,28 @@
+1. Go to Job Page and Active Easy Applay filter
+2. Run this code on console
+var levelResult=document;var latestixx=1;
+function clicknext(){	
+var topLevelResults = document.evaluate(".//ul[contains(@class, 'jobs-search-results__list') and contains(@class, 'artdeco-list')]", levelResult, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
+levelResult = topLevelResults.iterateNext();
+var ltsel=levelResult.parentElement.querySelectorAll('li')[latestixx++];
+levelResult=levelResult.parentElement;
+if(ltsel.getAttribute("class").indexOf('footer')==-1){
+	try{
+console.log(ltsel);ltsel.querySelectorAll('a')[0].click();
+var topLevelResultsx = document.evaluate("//button[contains(@data-control-name,'jobdetails_topcard_inapply')]", document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
+var levelResultx = topLevelResultsx.iterateNext();levelResultx.click();
+}catch(ex){}
+}
+try{
+var topLevelResultsx2 = document.evaluate("//button[contains(@class, 'jobs-apply-form__submit-button') and contains(@class, 'artdeco-button') and contains(@class, 'artdeco-button--3')]", document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
+var levelResultx2 = topLevelResultsx2.iterateNext();
+levelResultx2.click();
+}catch(ex){}
+}
+	
+
+3. Run This
+var intnext=setInterval(clicknext,20000);
+
+4. Stop
+clearInterval(intnext);

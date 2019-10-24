@@ -1,4 +1,4 @@
-<h1><a href="https://github.com/dewebdes/bismil/blob/master/pdf/social.pdf">SOCIAL ATTACKS</a></h1>
+<h1><a href="https://www.linkedin.com/pulse/linkedin-jobseeker-3-save-eye-trick-kevin-eyni/">SOCIAL ATTACKS</a></h1>
 <h1>SCROLL TO END OF SOCIAL PAGES</h1>
 <img src="https://raw.githubusercontent.com/dewebdes/LinkInTak/master/linkscroll1.jpeg" />
 <ul>

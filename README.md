@@ -13,5 +13,11 @@ paste this code:
 let it work, for stop it, paste and enter to run this code:
 <pre>clearInterval(allpost);</pre>
 </li>
+<li>
+Open full posts:
+  <pre>for(var i=0;i<=allmore.length-1;i++){
+allmore[i].click();
+}</pre>
+</li>
 <li><a href="https://www.linkedin.com/posts/kaveh-eyni-08060b59_socialenterprise-hacking-activity-6590992523957800960-Iilm">READ MORE...</a></li>
 </ul>
